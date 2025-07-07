@@ -1,0 +1,223 @@
+/* Reset básico */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #D5B893; /* Fondo general: Tan */
+    color: #6F4D38; /* Texto general: Coffee */
+}
+
+/* === HEADER === */
+
+header {
+    margin: 0;
+    padding: 0;
+}
+
+#logo {
+    background-color: #25344F; /* Space Cadet */
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+}
+
+#logo img {
+    height: 40px;
+    margin-right: 15px;
+}
+
+#logo a {
+    color: #D5B893; /* Tan */
+    font-size: 1.8em;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.main-nav {
+  background-color: #617891;
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  padding: 10px 0;
+  align-items: center;
+}
+
+.main-nav a {
+  text-decoration: none;
+  color: #D5B893;
+  font-weight: bold;
+  font-size: 1em
+  
+}
+
+.form-control{
+  padding: 3px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #333;
+}
+
+.form-control:focus {
+  border-color: #007bff;
+  outline: none;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #333;
+}
+
+
+#button-search{
+  padding: 5px 8px;
+  background-color: #25344F;
+  border: none;
+  color: white;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+#button-search:hover {
+  background-color: #007bff; /* Cambia el color de fondo al pasar el ratón */
+}
+
+.main-nav a:hover {
+    color: #632024; /* Caput Mortuum */
+}
+
+/* === CONTENIDO PRINCIPAL === */
+
+.main-content {
+    padding: 30px;
+}
+
+article {
+    margin-bottom: 40px;
+}
+
+.featured h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #25344F; /* Space Cadet */
+}
+
+.article-box {
+    display: flex;
+    gap: 15px;
+    align-items: flex-start;
+    margin-top: 10px;
+}
+
+.article-box img {
+    width: 100px;
+    height: 100px;
+    background-color: #617891; /* Slate Gray */
+}
+
+.article-box p {
+    flex: 1;
+}
+
+/* Iconos sociales simulados */
+.social-icons {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+    font-size: 1.2em;
+    color: #632024; /* Caput Mortuum */
+}
+
+/* Video */
+.video {
+    margin-top: 15px;
+}
+
+video {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+}
+
+/* === ENTRADAS RELACIONADAS === */
+
+.otros-posts {
+    background-color: #25344F; /* Space Cadet */
+    padding: 30px;
+    color: #D5B893; /* Tan */
+}
+
+.parrilla {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    text-align: center;
+}
+
+.post_miniatura {
+    background-color: #617891; /* Slate Gray */
+    padding: 20px;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 0.9em;
+}
+
+/* ===== Footer General ===== */
+footer {
+    background-color: #25344F; /* Space Cadet */
+    color: #D5B893; /* Tan */
+    padding: 40px 20px 20px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer-princi {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #617891; /* Slate Gray */
+}
+
+.footer-secu {
+    flex: 1 1 150px;
+    min-width: 140px;
+}
+
+.footer-secu h4 {
+    font-size: 1.1em;
+    color: #D5B893; /* Tan */
+    margin-bottom: 10px;
+}
+
+.footer-secu a {
+    display: block;
+    color: #D5B893;
+    text-decoration: none;
+    margin: 4px 0;
+    font-size: 0.95em;
+    transition: color 0.3s;
+}
+
+.footer-secu a:hover {
+    color: #6F4D38; /* Coffee */
+    text-decoration: underline;
+}
+
+/* Derechos */
+.footer-derechos {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.85em;
+    color: #AAA;
+    border-top: 1px solid #617891;
+    padding-top: 15px;
+}
+
